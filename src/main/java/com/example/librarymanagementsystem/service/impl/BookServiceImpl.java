@@ -33,7 +33,6 @@ public class BookServiceImpl implements BookService {
 	@Override
 	public void deleteBook(Long id) {
 		bookRepository.deleteById(id);
-		
 	}
 	
 	@Override
